@@ -81,9 +81,10 @@ namespace SmartSQLite
             // 
             // btnGetSmart
             // 
-            this.btnGetSmart.Location = new System.Drawing.Point(1, 4);
+            this.btnGetSmart.Location = new System.Drawing.Point(1, 5);
+            this.btnGetSmart.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnGetSmart.Name = "btnGetSmart";
-            this.btnGetSmart.Size = new System.Drawing.Size(62, 36);
+            this.btnGetSmart.Size = new System.Drawing.Size(83, 44);
             this.btnGetSmart.TabIndex = 1;
             this.btnGetSmart.Text = "Загрузка данных";
             this.btnGetSmart.UseVisualStyleBackColor = true;
@@ -91,9 +92,10 @@ namespace SmartSQLite
             // 
             // btnShowSmart
             // 
-            this.btnShowSmart.Location = new System.Drawing.Point(394, -1);
+            this.btnShowSmart.Location = new System.Drawing.Point(525, -1);
+            this.btnShowSmart.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnShowSmart.Name = "btnShowSmart";
-            this.btnShowSmart.Size = new System.Drawing.Size(68, 20);
+            this.btnShowSmart.Size = new System.Drawing.Size(91, 25);
             this.btnShowSmart.TabIndex = 2;
             this.btnShowSmart.Text = "SMART";
             this.btnShowSmart.UseVisualStyleBackColor = true;
@@ -102,17 +104,19 @@ namespace SmartSQLite
             // cmbPC
             // 
             this.cmbPC.FormattingEnabled = true;
-            this.cmbPC.Location = new System.Drawing.Point(241, 6);
+            this.cmbPC.Location = new System.Drawing.Point(321, 7);
+            this.cmbPC.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cmbPC.Name = "cmbPC";
-            this.cmbPC.Size = new System.Drawing.Size(152, 21);
+            this.cmbPC.Size = new System.Drawing.Size(201, 24);
             this.cmbPC.TabIndex = 4;
             // 
             // lblSmartFor
             // 
             this.lblSmartFor.AutoSize = true;
-            this.lblSmartFor.Location = new System.Drawing.Point(175, 9);
+            this.lblSmartFor.Location = new System.Drawing.Point(233, 11);
+            this.lblSmartFor.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblSmartFor.Name = "lblSmartFor";
-            this.lblSmartFor.Size = new System.Drawing.Size(66, 13);
+            this.lblSmartFor.Size = new System.Drawing.Size(81, 16);
             this.lblSmartFor.TabIndex = 5;
             this.lblSmartFor.Text = "SMART для";
             // 
@@ -120,9 +124,10 @@ namespace SmartSQLite
             // 
             this.lblPc.AutoSize = true;
             this.lblPc.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lblPc.Location = new System.Drawing.Point(-1, 61);
+            this.lblPc.Location = new System.Drawing.Point(-1, 75);
+            this.lblPc.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPc.Name = "lblPc";
-            this.lblPc.Size = new System.Drawing.Size(43, 16);
+            this.lblPc.Size = new System.Drawing.Size(51, 20);
             this.lblPc.TabIndex = 11;
             this.lblPc.Text = "lblPc";
             // 
@@ -130,17 +135,19 @@ namespace SmartSQLite
             // 
             this.lblSayGetSmart.AutoSize = true;
             this.lblSayGetSmart.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lblSayGetSmart.Location = new System.Drawing.Point(1, 42);
+            this.lblSayGetSmart.Location = new System.Drawing.Point(1, 52);
+            this.lblSayGetSmart.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblSayGetSmart.Name = "lblSayGetSmart";
-            this.lblSayGetSmart.Size = new System.Drawing.Size(116, 16);
+            this.lblSayGetSmart.Size = new System.Drawing.Size(140, 20);
             this.lblSayGetSmart.TabIndex = 12;
             this.lblSayGetSmart.Text = "lblSayGetSmart";
             // 
             // btnAnaliz
             // 
-            this.btnAnaliz.Location = new System.Drawing.Point(66, 4);
+            this.btnAnaliz.Location = new System.Drawing.Point(88, 5);
+            this.btnAnaliz.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAnaliz.Name = "btnAnaliz";
-            this.btnAnaliz.Size = new System.Drawing.Size(68, 36);
+            this.btnAnaliz.Size = new System.Drawing.Size(91, 44);
             this.btnAnaliz.TabIndex = 13;
             this.btnAnaliz.Text = "Анализ данных";
             this.btnAnaliz.UseVisualStyleBackColor = true;
@@ -149,16 +156,18 @@ namespace SmartSQLite
             // cmBoxErrs2
             // 
             this.cmBoxErrs2.FormattingEnabled = true;
-            this.cmBoxErrs2.Location = new System.Drawing.Point(241, 38);
+            this.cmBoxErrs2.Location = new System.Drawing.Point(321, 47);
+            this.cmBoxErrs2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cmBoxErrs2.Name = "cmBoxErrs2";
-            this.cmBoxErrs2.Size = new System.Drawing.Size(152, 21);
+            this.cmBoxErrs2.Size = new System.Drawing.Size(201, 24);
             this.cmBoxErrs2.TabIndex = 14;
             // 
             // btnShowErrs2
             // 
-            this.btnShowErrs2.Location = new System.Drawing.Point(394, 39);
+            this.btnShowErrs2.Location = new System.Drawing.Point(525, 48);
+            this.btnShowErrs2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnShowErrs2.Name = "btnShowErrs2";
-            this.btnShowErrs2.Size = new System.Drawing.Size(68, 20);
+            this.btnShowErrs2.Size = new System.Drawing.Size(91, 25);
             this.btnShowErrs2.TabIndex = 15;
             this.btnShowErrs2.Text = "История";
             this.btnShowErrs2.UseVisualStyleBackColor = true;
@@ -166,9 +175,10 @@ namespace SmartSQLite
             // 
             // btnHistory
             // 
-            this.btnHistory.Location = new System.Drawing.Point(394, 19);
+            this.btnHistory.Location = new System.Drawing.Point(525, 23);
+            this.btnHistory.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnHistory.Name = "btnHistory";
-            this.btnHistory.Size = new System.Drawing.Size(68, 20);
+            this.btnHistory.Size = new System.Drawing.Size(91, 25);
             this.btnHistory.TabIndex = 16;
             this.btnHistory.Text = "История";
             this.btnHistory.UseVisualStyleBackColor = true;
@@ -177,17 +187,19 @@ namespace SmartSQLite
             // lblErr2
             // 
             this.lblErr2.AutoSize = true;
-            this.lblErr2.Location = new System.Drawing.Point(181, 42);
+            this.lblErr2.Location = new System.Drawing.Point(241, 52);
+            this.lblErr2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblErr2.Name = "lblErr2";
-            this.lblErr2.Size = new System.Drawing.Size(60, 13);
+            this.lblErr2.Size = new System.Drawing.Size(78, 16);
             this.lblErr2.TabIndex = 17;
             this.lblErr2.Text = "ухудшение";
             // 
             // btnCheckDisks
             // 
-            this.btnCheckDisks.Location = new System.Drawing.Point(580, 4);
+            this.btnCheckDisks.Location = new System.Drawing.Point(773, 5);
+            this.btnCheckDisks.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCheckDisks.Name = "btnCheckDisks";
-            this.btnCheckDisks.Size = new System.Drawing.Size(110, 23);
+            this.btnCheckDisks.Size = new System.Drawing.Size(147, 28);
             this.btnCheckDisks.TabIndex = 18;
             this.btnCheckDisks.Text = "Проверка дисков";
             this.btnCheckDisks.UseVisualStyleBackColor = true;
@@ -197,9 +209,10 @@ namespace SmartSQLite
             // 
             this.lblSayErr.AutoSize = true;
             this.lblSayErr.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lblSayErr.Location = new System.Drawing.Point(589, 61);
+            this.lblSayErr.Location = new System.Drawing.Point(785, 75);
+            this.lblSayErr.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblSayErr.Name = "lblSayErr";
-            this.lblSayErr.Size = new System.Drawing.Size(68, 16);
+            this.lblSayErr.Size = new System.Drawing.Size(87, 20);
             this.lblSayErr.TabIndex = 19;
             this.lblSayErr.Text = "Ошибки!";
             // 
@@ -207,26 +220,29 @@ namespace SmartSQLite
             // 
             this.lblSayErr2.AutoSize = true;
             this.lblSayErr2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lblSayErr2.Location = new System.Drawing.Point(498, 61);
+            this.lblSayErr2.Location = new System.Drawing.Point(664, 75);
+            this.lblSayErr2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblSayErr2.Name = "lblSayErr2";
-            this.lblSayErr2.Size = new System.Drawing.Size(93, 16);
+            this.lblSayErr2.Size = new System.Drawing.Size(117, 20);
             this.lblSayErr2.TabIndex = 20;
             this.lblSayErr2.Text = "Ухудшение!";
             // 
             // lblErr
             // 
             this.lblErr.AutoSize = true;
-            this.lblErr.Location = new System.Drawing.Point(462, 42);
+            this.lblErr.Location = new System.Drawing.Point(616, 52);
+            this.lblErr.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblErr.Name = "lblErr";
-            this.lblErr.Size = new System.Drawing.Size(45, 13);
+            this.lblErr.Size = new System.Drawing.Size(55, 16);
             this.lblErr.TabIndex = 24;
             this.lblErr.Text = "ошибки";
             // 
             // btnShowErrs
             // 
-            this.btnShowErrs.Location = new System.Drawing.Point(659, 35);
+            this.btnShowErrs.Location = new System.Drawing.Point(879, 43);
+            this.btnShowErrs.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnShowErrs.Name = "btnShowErrs";
-            this.btnShowErrs.Size = new System.Drawing.Size(61, 20);
+            this.btnShowErrs.Size = new System.Drawing.Size(81, 25);
             this.btnShowErrs.TabIndex = 22;
             this.btnShowErrs.Text = "История";
             this.btnShowErrs.UseVisualStyleBackColor = true;
@@ -235,16 +251,18 @@ namespace SmartSQLite
             // cmBoxErrs
             // 
             this.cmBoxErrs.FormattingEnabled = true;
-            this.cmBoxErrs.Location = new System.Drawing.Point(507, 41);
+            this.cmBoxErrs.Location = new System.Drawing.Point(676, 50);
+            this.cmBoxErrs.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cmBoxErrs.Name = "cmBoxErrs";
-            this.cmBoxErrs.Size = new System.Drawing.Size(151, 21);
+            this.cmBoxErrs.Size = new System.Drawing.Size(200, 24);
             this.cmBoxErrs.TabIndex = 21;
             // 
             // btnToArh
             // 
-            this.btnToArh.Location = new System.Drawing.Point(465, 0);
+            this.btnToArh.Location = new System.Drawing.Point(620, 0);
+            this.btnToArh.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnToArh.Name = "btnToArh";
-            this.btnToArh.Size = new System.Drawing.Size(72, 20);
+            this.btnToArh.Size = new System.Drawing.Size(96, 25);
             this.btnToArh.TabIndex = 25;
             this.btnToArh.Text = "В архив";
             this.btnToArh.UseVisualStyleBackColor = true;
@@ -254,9 +272,10 @@ namespace SmartSQLite
             // 
             this.lblArhiv.AutoSize = true;
             this.lblArhiv.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lblArhiv.Location = new System.Drawing.Point(801, 4);
+            this.lblArhiv.Location = new System.Drawing.Point(1068, 5);
+            this.lblArhiv.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblArhiv.Name = "lblArhiv";
-            this.lblArhiv.Size = new System.Drawing.Size(52, 16);
+            this.lblArhiv.Size = new System.Drawing.Size(64, 20);
             this.lblArhiv.TabIndex = 26;
             this.lblArhiv.Text = "Архив";
             this.lblArhiv.Visible = false;
@@ -264,17 +283,19 @@ namespace SmartSQLite
             // cmbPcArhiv
             // 
             this.cmbPcArhiv.FormattingEnabled = true;
-            this.cmbPcArhiv.Location = new System.Drawing.Point(758, 26);
+            this.cmbPcArhiv.Location = new System.Drawing.Point(1011, 32);
+            this.cmbPcArhiv.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cmbPcArhiv.Name = "cmbPcArhiv";
-            this.cmbPcArhiv.Size = new System.Drawing.Size(152, 21);
+            this.cmbPcArhiv.Size = new System.Drawing.Size(201, 24);
             this.cmbPcArhiv.TabIndex = 27;
             this.cmbPcArhiv.Visible = false;
             // 
             // btnShowSmartArhiv
             // 
-            this.btnShowSmartArhiv.Location = new System.Drawing.Point(912, 25);
+            this.btnShowSmartArhiv.Location = new System.Drawing.Point(1216, 31);
+            this.btnShowSmartArhiv.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnShowSmartArhiv.Name = "btnShowSmartArhiv";
-            this.btnShowSmartArhiv.Size = new System.Drawing.Size(60, 20);
+            this.btnShowSmartArhiv.Size = new System.Drawing.Size(80, 25);
             this.btnShowSmartArhiv.TabIndex = 28;
             this.btnShowSmartArhiv.Text = "История";
             this.btnShowSmartArhiv.UseVisualStyleBackColor = true;
@@ -285,9 +306,10 @@ namespace SmartSQLite
             // 
             this.lblSayArhiv.AutoSize = true;
             this.lblSayArhiv.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lblSayArhiv.Location = new System.Drawing.Point(760, 61);
+            this.lblSayArhiv.Location = new System.Drawing.Point(1013, 75);
+            this.lblSayArhiv.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblSayArhiv.Name = "lblSayArhiv";
-            this.lblSayArhiv.Size = new System.Drawing.Size(147, 16);
+            this.lblSayArhiv.Size = new System.Drawing.Size(185, 20);
             this.lblSayArhiv.TabIndex = 29;
             this.lblSayArhiv.Text = "Данные из Архива!";
             this.lblSayArhiv.Visible = false;
@@ -296,18 +318,20 @@ namespace SmartSQLite
             // 
             this.lblDbl.AutoSize = true;
             this.lblDbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lblDbl.Location = new System.Drawing.Point(178, 61);
+            this.lblDbl.Location = new System.Drawing.Point(237, 75);
+            this.lblDbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDbl.Name = "lblDbl";
-            this.lblDbl.Size = new System.Drawing.Size(178, 16);
+            this.lblDbl.Size = new System.Drawing.Size(224, 20);
             this.lblDbl.TabIndex = 30;
             this.lblDbl.Text = "Дублирующиеся диски:";
             this.lblDbl.Visible = false;
             // 
             // btnHddDel
             // 
-            this.btnHddDel.Location = new System.Drawing.Point(426, 101);
+            this.btnHddDel.Location = new System.Drawing.Point(568, 128);
+            this.btnHddDel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnHddDel.Name = "btnHddDel";
-            this.btnHddDel.Size = new System.Drawing.Size(111, 23);
+            this.btnHddDel.Size = new System.Drawing.Size(148, 28);
             this.btnHddDel.TabIndex = 31;
             this.btnHddDel.Text = "Удалить диск";
             this.btnHddDel.UseVisualStyleBackColor = true;
@@ -315,9 +339,10 @@ namespace SmartSQLite
             // 
             // btnHddMove
             // 
-            this.btnHddMove.Location = new System.Drawing.Point(426, 143);
+            this.btnHddMove.Location = new System.Drawing.Point(568, 176);
+            this.btnHddMove.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnHddMove.Name = "btnHddMove";
-            this.btnHddMove.Size = new System.Drawing.Size(111, 23);
+            this.btnHddMove.Size = new System.Drawing.Size(148, 28);
             this.btnHddMove.TabIndex = 32;
             this.btnHddMove.Text = "Перенести данные";
             this.btnHddMove.UseVisualStyleBackColor = true;
@@ -327,36 +352,40 @@ namespace SmartSQLite
             // 
             this.lblMove.AutoSize = true;
             this.lblMove.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lblMove.Location = new System.Drawing.Point(548, 146);
+            this.lblMove.Location = new System.Drawing.Point(731, 180);
+            this.lblMove.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblMove.Name = "lblMove";
-            this.lblMove.Size = new System.Drawing.Size(129, 16);
+            this.lblMove.Size = new System.Drawing.Size(158, 20);
             this.lblMove.TabIndex = 33;
             this.lblMove.Text = "Перенос записи";
             this.lblMove.Visible = false;
             // 
             // txtMove
             // 
-            this.txtMove.Location = new System.Drawing.Point(677, 146);
+            this.txtMove.Location = new System.Drawing.Point(903, 180);
+            this.txtMove.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtMove.Name = "txtMove";
-            this.txtMove.Size = new System.Drawing.Size(53, 20);
+            this.txtMove.Size = new System.Drawing.Size(69, 22);
             this.txtMove.TabIndex = 34;
             // 
             // lblMoveAll
             // 
             this.lblMoveAll.AutoSize = true;
             this.lblMoveAll.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lblMoveAll.Location = new System.Drawing.Point(736, 146);
+            this.lblMoveAll.Location = new System.Drawing.Point(981, 180);
+            this.lblMoveAll.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblMoveAll.Name = "lblMoveAll";
-            this.lblMoveAll.Size = new System.Drawing.Size(30, 16);
+            this.lblMoveAll.Size = new System.Drawing.Size(36, 20);
             this.lblMoveAll.TabIndex = 35;
             this.lblMoveAll.Text = "из ";
             this.lblMoveAll.Visible = false;
             // 
             // btnFromArh
             // 
-            this.btnFromArh.Location = new System.Drawing.Point(912, 3);
+            this.btnFromArh.Location = new System.Drawing.Point(1216, 4);
+            this.btnFromArh.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnFromArh.Name = "btnFromArh";
-            this.btnFromArh.Size = new System.Drawing.Size(103, 20);
+            this.btnFromArh.Size = new System.Drawing.Size(137, 25);
             this.btnFromArh.TabIndex = 36;
             this.btnFromArh.Text = "В основную базу";
             this.btnFromArh.UseVisualStyleBackColor = true;
@@ -365,26 +394,29 @@ namespace SmartSQLite
             // pictureBox1
             // 
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox1.Location = new System.Drawing.Point(-312, 79);
+            this.pictureBox1.Location = new System.Drawing.Point(-416, 97);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1503, 2);
+            this.pictureBox1.Size = new System.Drawing.Size(2003, 2);
             this.pictureBox1.TabIndex = 37;
             this.pictureBox1.TabStop = false;
             // 
             // pictureBox2
             // 
             this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox2.Location = new System.Drawing.Point(755, -4);
+            this.pictureBox2.Location = new System.Drawing.Point(1007, -5);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(2, 84);
+            this.pictureBox2.Size = new System.Drawing.Size(2, 103);
             this.pictureBox2.TabIndex = 38;
             this.pictureBox2.TabStop = false;
             // 
             // btnShowGraph
             // 
-            this.btnShowGraph.Location = new System.Drawing.Point(465, 21);
+            this.btnShowGraph.Location = new System.Drawing.Point(620, 26);
+            this.btnShowGraph.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnShowGraph.Name = "btnShowGraph";
-            this.btnShowGraph.Size = new System.Drawing.Size(72, 20);
+            this.btnShowGraph.Size = new System.Drawing.Size(96, 25);
             this.btnShowGraph.TabIndex = 39;
             this.btnShowGraph.Text = "График";
             this.btnShowGraph.UseVisualStyleBackColor = true;
@@ -392,9 +424,10 @@ namespace SmartSQLite
             // 
             // btnShowGraphArh
             // 
-            this.btnShowGraphArh.Location = new System.Drawing.Point(912, 51);
+            this.btnShowGraphArh.Location = new System.Drawing.Point(1216, 63);
+            this.btnShowGraphArh.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnShowGraphArh.Name = "btnShowGraphArh";
-            this.btnShowGraphArh.Size = new System.Drawing.Size(60, 20);
+            this.btnShowGraphArh.Size = new System.Drawing.Size(80, 25);
             this.btnShowGraphArh.TabIndex = 42;
             this.btnShowGraphArh.Text = "График";
             this.btnShowGraphArh.UseVisualStyleBackColor = true;
@@ -402,78 +435,87 @@ namespace SmartSQLite
             // 
             // textSmartCod
             // 
-            this.textSmartCod.Location = new System.Drawing.Point(543, 20);
+            this.textSmartCod.Location = new System.Drawing.Point(724, 25);
+            this.textSmartCod.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textSmartCod.Name = "textSmartCod";
-            this.textSmartCod.Size = new System.Drawing.Size(33, 20);
+            this.textSmartCod.Size = new System.Drawing.Size(43, 22);
             this.textSmartCod.TabIndex = 43;
             this.textSmartCod.Text = "0";
             // 
             // textSmartCodArh
             // 
-            this.textSmartCodArh.Location = new System.Drawing.Point(978, 52);
+            this.textSmartCodArh.Location = new System.Drawing.Point(1304, 64);
+            this.textSmartCodArh.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textSmartCodArh.Name = "textSmartCodArh";
-            this.textSmartCodArh.Size = new System.Drawing.Size(33, 20);
+            this.textSmartCodArh.Size = new System.Drawing.Size(43, 22);
             this.textSmartCodArh.TabIndex = 44;
             this.textSmartCodArh.Text = "0";
             // 
             // lblYmax
             // 
             this.lblYmax.AutoSize = true;
-            this.lblYmax.Location = new System.Drawing.Point(908, 111);
+            this.lblYmax.Location = new System.Drawing.Point(1211, 137);
+            this.lblYmax.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblYmax.Name = "lblYmax";
-            this.lblYmax.Size = new System.Drawing.Size(43, 13);
+            this.lblYmax.Size = new System.Drawing.Size(55, 16);
             this.lblYmax.TabIndex = 45;
             this.lblYmax.Text = "lblYmax";
             // 
             // lblDays
             // 
             this.lblDays.AutoSize = true;
-            this.lblDays.Location = new System.Drawing.Point(927, 473);
+            this.lblDays.Location = new System.Drawing.Point(1236, 582);
+            this.lblDays.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDays.Name = "lblDays";
-            this.lblDays.Size = new System.Drawing.Size(41, 13);
+            this.lblDays.Size = new System.Drawing.Size(53, 16);
             this.lblDays.TabIndex = 47;
             this.lblDays.Text = "lblDays";
             // 
             // lblFirstDate
             // 
             this.lblFirstDate.AutoSize = true;
-            this.lblFirstDate.Location = new System.Drawing.Point(697, 92);
+            this.lblFirstDate.Location = new System.Drawing.Point(929, 113);
+            this.lblFirstDate.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblFirstDate.Name = "lblFirstDate";
-            this.lblFirstDate.Size = new System.Drawing.Size(59, 13);
+            this.lblFirstDate.Size = new System.Drawing.Size(75, 16);
             this.lblFirstDate.TabIndex = 48;
             this.lblFirstDate.Text = "lblFirstDate";
             // 
             // lblLastDate
             // 
             this.lblLastDate.AutoSize = true;
-            this.lblLastDate.Location = new System.Drawing.Point(922, 92);
+            this.lblLastDate.Location = new System.Drawing.Point(1229, 113);
+            this.lblLastDate.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblLastDate.Name = "lblLastDate";
-            this.lblLastDate.Size = new System.Drawing.Size(60, 13);
+            this.lblLastDate.Size = new System.Drawing.Size(75, 16);
             this.lblLastDate.TabIndex = 49;
             this.lblLastDate.Text = "lblLastDate";
             // 
             // lblYmin
             // 
             this.lblYmin.AutoSize = true;
-            this.lblYmin.Location = new System.Drawing.Point(913, 434);
+            this.lblYmin.Location = new System.Drawing.Point(1217, 534);
+            this.lblYmin.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblYmin.Name = "lblYmin";
-            this.lblYmin.Size = new System.Drawing.Size(35, 13);
+            this.lblYmin.Size = new System.Drawing.Size(44, 16);
             this.lblYmin.TabIndex = 50;
             this.lblYmin.Text = "label1";
             // 
             // textSmartCodCheck
             // 
-            this.textSmartCodCheck.Location = new System.Drawing.Point(462, 57);
+            this.textSmartCodCheck.Location = new System.Drawing.Point(616, 70);
+            this.textSmartCodCheck.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textSmartCodCheck.Name = "textSmartCodCheck";
-            this.textSmartCodCheck.Size = new System.Drawing.Size(33, 20);
+            this.textSmartCodCheck.Size = new System.Drawing.Size(43, 22);
             this.textSmartCodCheck.TabIndex = 52;
             this.textSmartCodCheck.Text = "0";
             // 
             // btnShowGraphCheck
             // 
-            this.btnShowGraphCheck.Location = new System.Drawing.Point(394, 59);
+            this.btnShowGraphCheck.Location = new System.Drawing.Point(525, 73);
+            this.btnShowGraphCheck.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnShowGraphCheck.Name = "btnShowGraphCheck";
-            this.btnShowGraphCheck.Size = new System.Drawing.Size(68, 20);
+            this.btnShowGraphCheck.Size = new System.Drawing.Size(91, 25);
             this.btnShowGraphCheck.TabIndex = 51;
             this.btnShowGraphCheck.Text = "График";
             this.btnShowGraphCheck.UseVisualStyleBackColor = true;
@@ -481,9 +523,10 @@ namespace SmartSQLite
             // 
             // btnShowGraphErr
             // 
-            this.btnShowGraphErr.Location = new System.Drawing.Point(659, 57);
+            this.btnShowGraphErr.Location = new System.Drawing.Point(879, 70);
+            this.btnShowGraphErr.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnShowGraphErr.Name = "btnShowGraphErr";
-            this.btnShowGraphErr.Size = new System.Drawing.Size(61, 20);
+            this.btnShowGraphErr.Size = new System.Drawing.Size(81, 25);
             this.btnShowGraphErr.TabIndex = 53;
             this.btnShowGraphErr.Text = "График";
             this.btnShowGraphErr.UseVisualStyleBackColor = true;
@@ -491,18 +534,20 @@ namespace SmartSQLite
             // 
             // textSmartCodErr
             // 
-            this.textSmartCodErr.Location = new System.Drawing.Point(720, 55);
+            this.textSmartCodErr.Location = new System.Drawing.Point(960, 68);
+            this.textSmartCodErr.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textSmartCodErr.Name = "textSmartCodErr";
-            this.textSmartCodErr.Size = new System.Drawing.Size(33, 20);
+            this.textSmartCodErr.Size = new System.Drawing.Size(43, 22);
             this.textSmartCodErr.TabIndex = 54;
             this.textSmartCodErr.Text = "0";
             // 
             // lblZero
             // 
             this.lblZero.AutoSize = true;
-            this.lblZero.Location = new System.Drawing.Point(913, 453);
+            this.lblZero.Location = new System.Drawing.Point(1217, 558);
+            this.lblZero.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblZero.Name = "lblZero";
-            this.lblZero.Size = new System.Drawing.Size(39, 13);
+            this.lblZero.Size = new System.Drawing.Size(49, 16);
             this.lblZero.TabIndex = 55;
             this.lblZero.Text = "lblZero";
             // 
@@ -510,17 +555,18 @@ namespace SmartSQLite
             // 
             this.lblPcDisk.AutoSize = true;
             this.lblPcDisk.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lblPcDisk.Location = new System.Drawing.Point(49, 61);
+            this.lblPcDisk.Location = new System.Drawing.Point(65, 75);
+            this.lblPcDisk.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPcDisk.Name = "lblPcDisk";
-            this.lblPcDisk.Size = new System.Drawing.Size(74, 16);
+            this.lblPcDisk.Size = new System.Drawing.Size(89, 20);
             this.lblPcDisk.TabIndex = 56;
             this.lblPcDisk.Text = "lblPcDisk";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1016, 573);
+            this.ClientSize = new System.Drawing.Size(1355, 705);
             this.Controls.Add(this.lblPcDisk);
             this.Controls.Add(this.lblZero);
             this.Controls.Add(this.textSmartCodErr);
@@ -567,6 +613,7 @@ namespace SmartSQLite
             this.Controls.Add(this.cmbPC);
             this.Controls.Add(this.btnShowSmart);
             this.Controls.Add(this.btnGetSmart);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "SmartAnaliz";

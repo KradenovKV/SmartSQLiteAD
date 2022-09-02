@@ -1,0 +1,5 @@
+  5 Reallocated_Sector_Ct
+187 Reported_Uncorrect
+197 Current_Pending_Sector
+198 Offline_Uncorrectable
+
