@@ -1,0 +1,22 @@
+  1 Raw_Read_Error_Rate
+  2 Throughput_Performance
+  3 Spin_Up_Time
+  4 Start_Stop_Count
+  5 Reallocated_Sector_Ct
+  7 Seek_Error_Rate,HDD
+  8 Seek_Time_Performance,HDD
+ 10 Spin_Retry_Count,HDD
+ 12 Power_Cycle_Count
+170 Reserved_Block_Count
+177 Wear_Leveling_Count,SSD
+179 Used_Rsvd_Blk_Cnt_Tot,SSD
+183 Runtime_Bad_Block
+184 End-to-End_Error
+187 Reported_Uncorrect
+196 Reallocated_Event_Count
+197 Current_Pending_Sector
+198 Offline_Uncorrectable
+230 Head_Amplitude,HDD
+231 SSD_Life_Left,HDD
+233 Media_Wearout_Indicator,SSD
+240 Head_Flying_Hours,HDD
